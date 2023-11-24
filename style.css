@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins','sans-serif';
+    box-sizing: border-box;
+}
+body{
+    background: #262a2f;
+    color: #333;
+}
+
+.search-box{
+    width: 600px;
+    background: #fff;
+    margin: 200px auto 0;
+    border-radius:5px;
+}
+.row{
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+}
+ input{
+    flex:1;
+    height: 50px;
+    background: transparent;
+    color: #000;
+    border:0;
+    outline:0;
+ }
+ button{
+    flex:left;
+    width:100px;
+    height:50px;
+    border-radius:30px;
+ }
